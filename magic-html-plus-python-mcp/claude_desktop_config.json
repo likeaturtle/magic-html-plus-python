@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "magic-html-extractor": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/fujd/Desktop/magic-html-plus-python-mcp",
+        "run",
+        "mcp_server.py"
+      ]
+    }
+  }
+}

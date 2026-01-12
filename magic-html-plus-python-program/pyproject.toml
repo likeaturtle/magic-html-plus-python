@@ -1,0 +1,14 @@
+[project]
+name = "magic-html-plus-python-application"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "magic-html-plus-python-package",
+    "requests>=2.32.5",
+]
+
+[tool.uv.sources]
+magic-html-plus-python-package = { path = "magic_html_plus_python_package-0.1.0-py3-none-any.whl" }

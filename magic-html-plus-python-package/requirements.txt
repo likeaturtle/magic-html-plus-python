@@ -1,0 +1,6 @@
+Brotli
+charset_normalizer
+lxml<5.2.0
+numpy
+py_asciimath
+urllib3

@@ -1,0 +1,10 @@
+# parse_url.py 的依赖
+
+# HTTP 请求
+requests
+
+# HTML 解析和格式化
+beautifulsoup4
+
+# magic_html 核心包（本地安装）
+./magic_html_plus_python_package-0.1.0-py3-none-any.whl

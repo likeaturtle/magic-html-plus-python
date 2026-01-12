@@ -1,0 +1,24 @@
+[project]
+name = "magic-html-plus-python-package"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "brotli>=1.2.0",
+    "charset-normalizer>=3.4.4",
+    "lxml<5.2.0",
+    "numpy>=2.4.1",
+    "py-asciimath>=0.3.0",
+    "urllib3>=2.6.3",
+]
+
+[tool.setuptools]
+packages = ["magic_html", "magic_html.extractors", "magic_html.mmltex"]
+
+[tool.setuptools.package-data]
+magic_html = ["mmltex/*.xsl", "mmltex/README"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
